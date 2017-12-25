@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by yuanli on 2017/9/15.
  */
-public class CarVo {
+public class CartVo {
 
     private List<CartProductVo> cartProductVoList;
     private BigDecimal cartTotalPrice;

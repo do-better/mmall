@@ -20,7 +20,7 @@
                     </list>
                 </property>
             </bean>
-            <!--反序列化-->
+            <!--json反序列化@responsebady-->
             <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
                 <property name="supportedMediaTypes">
                     <list>

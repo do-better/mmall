@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * Guava Cache
  * Created by geely
  */
 public class TokenCache {
