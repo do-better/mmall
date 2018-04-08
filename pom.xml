@@ -271,7 +271,7 @@
           <source>1.7</source>
           <target>1.7</target>
           <encoding>UTF-8</encoding>
-          <!-- 支付宝本地jar包的引入，因为maven中央仓库没有-->
+          <!-- 支付宝本地jar包的引入，因为maven中央仓库没有，这样配置就可以在服务器上编译的时候引入支付宝jar包-->
           <compilerArguments>
             <extdirs>${project.basedir}/src/main/webapp/WEB-INF/lib</extdirs>
           </compilerArguments>

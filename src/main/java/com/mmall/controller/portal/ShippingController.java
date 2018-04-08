@@ -27,6 +27,7 @@ public class ShippingController {
 
     @RequestMapping("add.do")
     @ResponseBody
+    //Shipping对象绑定
     public ServerResponse add(HttpSession session, Shipping shipping){
         User user = (User)session.getAttribute(Const.CURRENT_USER);
         if(user ==null){
