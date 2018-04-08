@@ -48,7 +48,8 @@ public class MD5Util {
     }
 
     public static String MD5EncodeUtf8(String origin) {
-//        origin = origin + PropertiesUtil.getProperty("password.salt", "");
+        //todo 本地虚拟机中的user表password未加slat值，aliyun中的user表加了salt值
+        origin = origin + PropertiesUtil.getProperty("password.salt", "");
         return MD5Encode(origin, "utf-8");
     }
 
